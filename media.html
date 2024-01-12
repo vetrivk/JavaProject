@@ -7,23 +7,60 @@
   </head>
   <body>
     <style>
-      div {
+      .two {
         background-color: yellowgreen;
         height: 100px;
         width: 100%;
       }
       @media screen and (max-width: 768px) {
-        div {
+        .two {
           background-color: blue;
         }
       }
       @media screen and (max-width: 579px) {
-        div {
+        .two {
           background-color: red;
+        }
+      }
+      .one {
+        background-color: brown;
+        width: 400px;
+        height: 300px;
+        margin-top: 20px;
+        float: left;
+        margin-right: 20px;
+      }
+      p {
+        margin-top: 10px;
+        padding-top: 20px;
+        margin-left: 10px;
+        text-align: justify;
+      }
+      @media screen and (max-width: 768px) {
+        .one {
+          float: none;
         }
       }
     </style>
 
-    <div></div>
+    <div class="two"></div>
+    <div>
+      <div class="one"></div>
+      <p>
+        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora nobis
+        explicabo non illo suscipit deleniti sunt nemo rerum, veritatis eum
+        repudiandae tenetur similique ducimus at reprehenderit, est omnis fuga
+        a.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+        nobis explicabo non illo suscipit deleniti sunt nemo rerum, veritatis
+        eum repudiandae tenetur similique ducimus at reprehenderit, est omnis
+        fuga a.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+        nobis explicabo non illo suscipit deleniti sunt nemo rerum, veritatis
+        eum repudiandae tenetur similique ducimus at reprehenderit, est omnis
+        fuga a.Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tempora
+        nobis explicabo non illo suscipit deleniti sunt nemo rerum, veritatis
+        eum repudiandae tenetur similique ducimus at reprehenderit, est omnis
+        fuga a.
+      </p>
+    </div>
   </body>
 </html>
